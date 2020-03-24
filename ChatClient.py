@@ -189,7 +189,7 @@ class ChatClient:
         self.root = root
         if self.root is None:
             self.root = Tk()
-        self.title = 'ChatClient'
+        self.title = '聊天室 - %s' % self.username
         self.root.title(self.title)
 
         self.var_send = StringVar()
